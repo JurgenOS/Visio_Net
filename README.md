@@ -13,7 +13,8 @@ To make it work I'm going to use the "cdp/lldp neighbor" tables.
       The hierarchy depends on the amount of the links.
       The more links the hiegher hierarchy.
 - [ ] Write the script to parse 'cdp neighbor' files and return the dictionary like this:
-```template = {'R4': {'Fa0/1': {'R5': 'Fa0/1'},
+```
+template = {'R4': {'Fa0/1': {'R5': 'Fa0/1'},
                       'Fa0/2': {'R6': 'Fa0/0'},
                       'Fa0/3': {'R8': 'Fa0/4'}},
                'R5': {'Fa0/1': {'R4': 'Fa0/1'}},
