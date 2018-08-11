@@ -23,6 +23,7 @@ To make it work I'm going to use the "cdp/lldp neighbor" tables.
                'R8': {'Fa0/2': {'R7': 'Fa0/0'},
                       'Fa0/3': {'R6': 'Fa0/1'},
                       'Fa0/4': {'R4': 'Fa0/3'}
-'''}}
+}}
+'''
 - [x] Wirte the script 'template_duplicate_deleter' that parses the previous dictionary and deletes the duplicate links
 - [ ] Write the main script that gets the arguments and call the others scripts
