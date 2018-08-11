@@ -1,0 +1,11 @@
+Switch#sh lldp n
+Capability codes:
+    (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+    (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+
+Device ID           Local Intf     Hold-time  Capability      Port ID
+Huawei_2            Gi0/1          120        B               Ethernet0/0/8
+Huawei_3            Gi0/2          120        B               Ethernet0/0/1
+Huawei_1            Gi0/0          120        B               Ethernet0/0/8
+
+Total entries displayed: 3
